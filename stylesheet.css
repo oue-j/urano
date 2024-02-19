@@ -1,0 +1,128 @@
+@media only screen and (min-width: 768px) {
+    /* PC向けのスタイルを追加 */
+    img {
+        width: 100%; /* 親要素の幅に合わせる */
+        height: auto; /* アスペクト比を保つ */
+    }
+    /* 他のPC向けのスタイルも必要に応じて追加 */
+}
+
+
+body {
+    font-family: "Avenir Next";
+    font-size: 19px;  
+}
+
+.page{
+    width: 95%;
+    margin:0 auto;
+    max-width: 600px;
+}
+
+.title {
+    font-size: 1.5em;
+    background-color: bisque;
+    padding: 6px 15px
+}
+
+.title-kagi {
+    color:black;
+}
+
+.title-jigoku{
+    color:red
+}
+
+.title-kyusai{
+    color:blue;
+}
+
+.top-img{
+    max-width: 100%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin: auto;    /* 左右のマージンをautoに設定 */
+}
+
+.jigoku-img{
+    max-width: 100%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin: auto;    /* 左右のマージンをautoに設定 */
+}
+
+.section-1 {
+    font-size: 1.3em;
+    font-weight: bold
+}
+
+.blue {
+    color:blue
+}
+
+.kiken {
+    font-size: 1.2em;
+    font-weight: bold;
+    color:red;
+}
+
+.renai {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: blue;
+}
+
+.title-2 {
+    background-color: bisque;
+    padding: 6px 15px
+}
+
+.jigoku2 {
+    max-width: 100%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin: auto;    /* 左右のマージンをautoに設定 */
+}
+
+.futoji {
+    font-weight: bold;
+}
+
+.deka {
+    font-size:larger
+}
+
+.are {
+    max-width: 100%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin: auto;    /* 左右のマージンをautoに設定 */
+}
+
+.graph {
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin-left: auto;    /* 左右のマージンをautoに設定 */
+    margin-right: auto;
+}
+
+.yajirusi {
+    text-align: center;
+}
+
+video {
+    max-width: 50%; /* 親要素の幅に合わせる */
+    height: auto;    /* アスペクト比を保つ */
+    min-width: 300px; /* 最小幅を指定（適当なサイズに調整）*/
+    display: block; /* インライン要素からブロック要素に変更 */
+    margin: auto;    /* 左右のマージンをautoに設定 */
+}
